@@ -1,3 +1,76 @@
-header {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 70px;
+}
+section{
+    margin-top: 15  px;
+}
+span{
+    background-color: yellow;
+}
+.subtitle {
+   color: rgba(0, 0, 0, 0.5);
+}
+.subtitle-color {
+    font-size: 30px;
+}
+.subtitle-color span {
+    background-color: white;
+    color: blue;
+    
+    
+}
+
+.img1{
+    background-image: url("../img/monitor.jpg");
+    background-size: cover;
+    background-position: center ;
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+}
+.img2{
+    background-image: url("../img/graph.jpg");
+    background-size: cover;
+    background-position: center ;
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+
+}
+.padd{
+    margin-top: 0;
+}
+.tutto{
+    height: 100vh;
+}
+
+thead {
+    background-color: rgb(18, 144, 175);
+    color: white;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td {
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+}
+.lightcolor {
+    background-color: aqua;
+}
+footer>span {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.829);
+}
+footer{
+    color: white;
 }
